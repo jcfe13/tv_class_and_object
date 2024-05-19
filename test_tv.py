@@ -13,3 +13,6 @@ def test_tv():
     tv2.turn_on()
     tv2.set_channel(3)
     tv2.set_volume(2)
+
+    # 4. Print the channel and volume level for both TVs.
+    
