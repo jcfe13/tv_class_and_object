@@ -20,3 +20,7 @@ class TV:
 
     def get_volume(self):
         return self.volume_level
+
+    def set_volume(self, volume_level):
+        if self.is_on and 1 <= volume_level <= 7:
+            self.volume_level = volume_level
