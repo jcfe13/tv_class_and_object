@@ -19,3 +19,4 @@ def test_tv():
     print(f"tv2's channel is {tv2.get_channel()} and volume level is {tv2.get_volume()}")
 
 # 5. Call the test_tv function to execute the code
+test_tv()
