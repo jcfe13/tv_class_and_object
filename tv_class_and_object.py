@@ -4,4 +4,7 @@ class TV:
         self.channel = 1
         self.volume_level = 1
         self.is_on = False
+
+    def turn_on(self):
+        self.is_on = True
         
