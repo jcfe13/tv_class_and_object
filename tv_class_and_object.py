@@ -28,3 +28,7 @@ class TV:
     def channel_up(self):
         if self.is_on and self.channel < 120:
             self.channel += 1
+
+    def channel_down(self):
+        if self.is_on and self.channel > 1:
+            self.channel -= 1
