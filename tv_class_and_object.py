@@ -13,4 +13,7 @@ class TV:
 
     def get_channel(self):
         return self.channel
-    
+
+    def set_channel(self, channel):
+        if self.is_on and 1 <= channel <= 120:
+            self.channel = channel
